@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Курсы - Школа английского Флоу</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/courses.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <img src="img/logo.png" alt="Логотип" class="logo-img">
+            <span>Флоу</span>
+        </div>
+        <nav class="nav">
+            <a href="index.html" class="nav-link">Главная</a>
+            <a href="about.html" class="nav-link">О нас</a>
+            <a href="courses.html" class="nav-link active">Курсы</a>
+            <a href="teachers.html" class="nav-link">Преподаватели</a>
+            <a href="reviews.html" class="nav-link">Отзывы</a>
+        </nav>
+        <div class="socials">
+            <a href="#" class="social-icon"><img src="img/vk-icon.png" alt="VK"></a>
+            <a href="#" class="social-icon"><img src="img/tg-icon.png" alt="Telegram"></a>
+            <a href="#" class="social-icon"><img src="img/yt-icon.png" alt="YouTube"></a>
+        </div>
+    </header>
+
+    <section class="courses-section">
+        <div class="courses-top">
+            <img src="img/icon-hat.png" alt="Шапка" class="side-icon">
+            <h1 class="courses-title">Курсы</h1>
+            <img src="img/icon-books.png" alt="Книги" class="side-icon">
+        </div>
+
+        <div class="courses-tabs">
+            <input type="checkbox" id="tab-individual" class="tab-toggle">
+            <input type="checkbox" id="tab-group" class="tab-toggle">
+            <input type="checkbox" id="tab-beginner" class="tab-toggle">
+
+            <div class="tab-buttons">
+                <label for="tab-individual" class="tab-btn">Индивидуально</label>
+                <label for="tab-group" class="tab-btn">В группе</label>
+                <label for="tab-beginner" class="tab-btn">Для начинающих</label>
+            </div>
+
+            <div class="tab-content individual-content">
+                <div class="courses-grid">
+                    <div class="course-card">
+                        <div class="course-header">Старт</div>
+                        <p class="course-desc">Первые шаги в английском. Мягкое погружение, простые темы и уверенность уже через несколько занятий.</p>
+                        <h2 class="course-subtitle">Что внутри</h2>
+                        <ul class="course-list">
+                            <li>Уроки 1 на 1 с носителем</li>
+                            <li>Программа под ваш уровень</li>
+                            <li>Разговорная практика</li>
+                            <li>Гибкий график</li>
+                        </ul>
+                        <div class="course-teacher">Преподаватель<br><span>ANNA</span></div>
+                    </div>
+                    <div class="course-card">
+                        <div class="course-header">«Разговорный хит»</div>
+                        <p class="course-desc">Для тех, кто хочет свободно говорить. Максимум практики, живое общение и разбор реальных ситуаций.</p>
+                        <h2 class="course-subtitle">Что внутри</h2>
+                        <ul class="course-list">
+                            <li>Всё из тарифа «Старт»</li>
+                            <li>Работа над акцентом</li>
+                            <li>Обратная связь</li>
+                            <li>Разбор разных ситуаций</li>
+                        </ul>
+                        <div class="course-teacher">Преподаватель<br><span>ANNA</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content group-content">
+                <div class="courses-grid">
+                    <div class="course-card">
+                        <div class="course-header">Группа - 4</div>
+                        <p class="course-desc">Маленькая группа - максимум внимания каждому. Идеально для тех, кто хочет общаться, но стесняется.</p>
+                        <h2 class="course-subtitle">Что внутри</h2>
+                        <ul class="course-list">
+                            <li>Группа до 4 человек</li>
+                            <li>Программа под ваш уровень</li>
+                            <li>Разговорная практика</li>
+                            <li>Гибкий график</li>
+                        </ul>
+                        <div class="course-teacher">Преподаватель<br><span>TIM</span></div>
+                    </div>
+                    <div class="course-card">
+                        <div class="course-header">Интенсив</div>
+                        <p class="course-desc">Ускоренный курс для тех, кому нужно быстро подтянуть язык. Занятия 3 раза в неделю.</p>
+                        <h2 class="course-subtitle">Что внутри</h2>
+                        <ul class="course-list">
+                            <li>Всё из тарифа «Группа - 4»</li>
+                            <li>Интенсивная практика</li>
+                            <li>Обратная связь</li>
+                            <li>Разбор разных ситуаций</li>
+                        </ul>
+                        <div class="course-teacher">Преподаватель<br><span>TIM</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content beginner-content">
+                <div class="courses-grid">
+                    <div class="course-card">
+                        <div class="course-header">Шаг - 1</div>
+                        <p class="course-desc">Для тех, кто никогда не учил английский. Алфавит, чтение, простые фразы - и первые диалоги уже через неделю.</p>
+                        <h2 class="course-subtitle">Что внутри</h2>
+                        <ul class="course-list">
+                            <li>Алфавит и произношение</li>
+                            <li>Аудирование с нуля</li>
+                            <li>Разговорная практика</li>
+                            <li>Гибкий график</li>
+                        </ul>
+                        <div class="course-teacher">Преподаватель<br><span>SARAH</span></div>
+                    </div>
+                    <div class="course-card">
+                        <div class="course-header">База за месяц</div>
+                        <p class="course-desc">Интенсивный старт: за месяц вы освоите базу и сможете поддержать простой разговор.</p>
+                        <h2 class="course-subtitle">Что внутри</h2>
+                        <ul class="course-list">
+                            <li>Всё из тарифа «Шаг - 1»</li>
+                            <li>Интенсивная практика</li>
+                            <li>3 занятия в неделю</li>
+                            <li>Разбор разных ситуаций</li>
+                        </ul>
+                        <div class="course-teacher">Преподаватель<br><span>SARAH</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-contacts">
+            <a href="tel:+78125677686">+7 (812) 567 76 - 86</a>
+            <a href="mailto:Flowschool@mail.ru">Flowschool@mail.ru</a>
+            <a href="https://t.me/Flowsc">tg: @Flowsc</a>
+        </div>
+    </footer>
+
+</body>
+</html>
